@@ -64,13 +64,15 @@
     }
 
     .social {
+      display: block;
       width: 240px;
       background-color: hsl(0, 0%, 20%);
       padding: 10px;
       margin: 8px 0;
       color: white;
       border-radius: 8px;
-      border: none;
+      text-align: center;
+      text-decoration: none;
       font-family: 'Inter';
     }
 
@@ -97,21 +99,15 @@
     <h6>Hyderabad, India</h6>
     <p>“Driven by curiosity and code.”</p>
 
-    <button class="social" onclick="openlink('https://github.com/Surana-Piyush')">GitHub</button>
+    <a class="social" href="https://github.com/Surana-Piyush" target="_blank">GitHub</a>
 
-    <button class="social" onclick="openlink('https://www.linkedin.com/in/piyushsurana01/')">LinkedIn</button>
+    <a class="social" href="https://www.linkedin.com/in/piyushsurana01/" target="_blank">LinkedIn</a>
 
-    <button class="social" onclick="openlink('https://www.instagram.com/suranapiyush01/')">Instagram</button>
+    <a class="social" href="https://www.instagram.com/suranapiyush01/" target="_blank">Instagram</a>
 
-    <button class="social" onclick="openlink()">Twitter</button>
+    <a class="social" href="https://twitter.com/" target="_blank">Twitter</a>
 
   </div>
-
-  <script>
-    function openlink(url) {
-      window.open(url, "_blank");
-    }
-  </script>
 
 
 </body>
